@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<project name="itsfragilecode/device_xiaomi_veux" path="device/xiaomi/veux" remote="github" revision="lineage-21.0" />
+
+</manifest>
