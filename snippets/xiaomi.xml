@@ -5,5 +5,6 @@
 	<project name="itsfragilecode/vendor_xiaomi_veux" path="vendor/xiaomi/veux" remote="github" revision="lineage-21.0" />
 	<project name="itsfragilecode/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-21.0" />
 	<project name="itsfragilecode/kernel_xiaomi_sm6375" path="kernel/xiaomi/sm6375" remote="github" revision="lineage-21.0" />
+	<project name="itsfragilecode/device_xiaomi_veux-kernel" path="device/xiaomi/veux-kernel" remote="github" revision="main" />
 
 </manifest>
