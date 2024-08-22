@@ -18,6 +18,7 @@ Then switch over to `veux` branch (*TODO*: this should be easier):
 cd .repo/manifests
 git fetch
 git checkout veux
+cd -
 ```
 
 Then to sync up:
