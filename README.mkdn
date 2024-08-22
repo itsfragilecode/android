@@ -12,6 +12,14 @@ To initialize your local repository using our trees, use a command like this:
 repo init -u https://github.com/itsfragilecode/android.git -b lineage-21.0 --git-lfs
 ```
 
+Then switch over to `veux` branch (*TODO*: this should be easier):
+
+```sh
+cd .repo/manifests
+git fetch
+git checkout veux
+```
+
 Then to sync up:
 
 ```sh
