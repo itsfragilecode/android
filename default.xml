@@ -1261,7 +1261,7 @@
   <project path="test/mlts/models" name="platform/test/mlts/models" groups="pdk" remote="aosp" />
   <project path="test/mts" name="platform/test/mts" remote="aosp" />
   <project path="test/robolectric-extensions" name="platform/test/robolectric-extensions"  groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="test/suite_harness" name="platform/test/suite_harness" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="test/suite_harness" name="platform/test/suite_harness" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" revision="refs/tags/android-14.0.0_r73" /> <!-- NOTE r74 doesn't exist -->
   <project path="test/vts" name="platform/test/vts" groups="vts,pdk" remote="aosp" />
   <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" groups="vts,pdk" remote="aosp" />
   <project path="test/vts-testcase/hal-trace" name="platform/test/vts-testcase/hal-trace" groups="vts,pdk" remote="aosp" />
@@ -1279,7 +1279,7 @@
   <project path="tools/apkzlib" name="platform/tools/apkzlib" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/asuite" name="platform/tools/asuite" groups="pdk" remote="aosp" />
   <project path="tools/carrier_settings" name="platform/tools/carrier_settings" groups="tools" remote="aosp" />
-  <project path="tools/content_addressed_storage/prebuilts" name="platform/tools/content_addressed_storage/prebuilts" groups="tools" clone-depth="1" remote="aosp" />
+  <project path="tools/content_addressed_storage/prebuilts" name="platform/tools/content_addressed_storage/prebuilts" groups="tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r73" /> <!-- NOTE !r74 -->
   <project path="tools/currysrc" name="platform/tools/currysrc" groups="pdk" remote="aosp" />
   <project path="tools/deviceinfra/prebuilts" name="platform/tools/deviceinfra/prebuilts" groups="tools" clone-depth="1" remote="aosp" />
   <project path="tools/dexter" name="platform/tools/dexter" groups="tools,pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -1300,10 +1300,10 @@
   <project path="tools/test/mobly_extensions" name="platform/tools/test/mobly_extensions" groups="pdk" remote="aosp" />
   <project path="tools/test/mobly_snippets" name="platform/tools/test/mobly_snippets" groups="pdk" remote="aosp" />
   <project path="tools/test/openhst" name="platform/tools/test/openhst" groups="tools" remote="aosp" />
-  <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
-  <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" remote="aosp" />
+  <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" revision="refs/tags/android-14.0.0_r73" /> <!-- NOTE r74 doesn't exist -->
+  <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" remote="aosp" revision="refs/tags/android-14.0.0_r73" /> <!-- NOTE r74 doesn't exist -->
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" remote="aosp" />
-  <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" remote="aosp" />
+  <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" remote="aosp" revision="refs/tags/android-14.0.0_r73" /> <!-- NOTE r74 doesn't exist -->
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="trusty/user/app/avb" name="trusty/app/avb" groups="trusty" remote="aosp" />
   <project path="trusty/user/app/cast-auth" name="trusty/app/cast-auth" groups="trusty" remote="aosp" />
